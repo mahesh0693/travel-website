@@ -1,0 +1,9 @@
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image {
+  margin: 0 10px;
+}

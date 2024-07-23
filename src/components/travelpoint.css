@@ -1,0 +1,78 @@
+.travel-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background: #f8f9fa;
+}
+
+.travel-point-content {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.travel-point-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.travel-point-image img {
+  width: 871px;
+  height: 697px;
+  gap: 0px;
+  opacity: 0px;
+  left: 0;
+}
+
+.travel-point-text {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  flex-direction: row;
+}
+
+.discounted-price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.discounted-price img {
+  margin-right: 10px;
+}
+
+.travel-point-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.travel-point-text p {
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.values {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  justify-content: space-around;
+}
+
+.travel-point-stats span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff5722;
+}
+
+.travel-point-stats p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
